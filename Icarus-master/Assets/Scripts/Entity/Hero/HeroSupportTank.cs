@@ -20,6 +20,6 @@ public class HeroSupportTank : HeroTank
     protected override string GetAdditionalDescription()
     {
         blockChance = OverrideBlockchance;
-        return base.GetAdditionalDescription() + ", buffs ally energy gain";
+        return "Bastante vida, ataca de longe e aumenta o ganho de energia dos aliados.";
     }
 }

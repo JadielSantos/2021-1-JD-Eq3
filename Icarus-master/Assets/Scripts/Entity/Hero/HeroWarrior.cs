@@ -11,7 +11,7 @@ public class HeroWarrior : HeroEntity
 
     protected override string GetAdditionalDescription()
     {
-        return "Melee damage dealer, spends energy to deal damage to all nearby enemies";
+        return "Vida média, defesa média e dá dano em área em certo tempo.";
     }
 
     protected override string GetClassType() => "Melee";

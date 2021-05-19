@@ -20,7 +20,7 @@ public class HeroTank : HeroEntity
 
     protected override string GetAdditionalDescription()
     {
-        return "Melee tank, spends energy to taunt enemies, has a " + (blockChance * 100f).ToString(".##") + "% chance to block incoming damage";
+        return "Bastante vida e defesa, alcance curto. Têm " + (blockChance * 100f).ToString(".##") + "% de chance de bloquear algum dano recebido.";
     }
 
     protected override string GetClassType() => "Tank";

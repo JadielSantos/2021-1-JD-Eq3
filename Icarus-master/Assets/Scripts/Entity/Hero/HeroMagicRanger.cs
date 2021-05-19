@@ -11,6 +11,6 @@ public class HeroMagicRanger : HeroRanger
 
     protected override string GetAdditionalDescription()
     {
-        return "Ranged damage dealer, shoots lightning bolts that bounce between enemies, spends energy to shoot 3 lightning bolts at once";
+        return "Longo alcance, atira raios com sua pistola. Atira 3 balas de uma vez em certo período de tempo";
     }
 }

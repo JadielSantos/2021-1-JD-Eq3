@@ -11,7 +11,7 @@ public class HeroRogue : HeroEntity
 
     protected override string GetAdditionalDescription()
     {
-        return "Melee damage dealer, spends energy to jump to target and gain 100% chance to evade attacks for a short period of time";
+        return "Vida baixa, defesa baixa, alto dano em pouco tempo. Ao gastar sua energia, pula no alvo e desvia de TODOS os ataques por um curto período de tempo.";
     }
 
     protected override string GetClassType() => "Melee";
