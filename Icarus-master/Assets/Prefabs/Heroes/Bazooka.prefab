@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 3971625367694705652}
   - component: {fileID: 959814943}
   m_Layer: 0
-  m_Name: Paladin
+  m_Name: Bazooka
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
