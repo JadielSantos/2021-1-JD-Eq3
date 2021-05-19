@@ -17,8 +17,8 @@ public static class HeroCreator
         return inst;
     }
 
-    public static Hero CreateRandomHero()
+    public static Hero CreateRandomHero(int i)
     {
-        return new Hero(EntityPrefabs.Instance.heroes.Random());
+        return new Hero(EntityPrefabs.Instance.heroes[i]);
     }
 }

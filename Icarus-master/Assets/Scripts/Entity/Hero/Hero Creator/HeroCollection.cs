@@ -37,7 +37,7 @@ public class HeroCollection : MonoSingleton<HeroCollection>
 
         for (int i = 0; i < num; ++i)
         {
-            var rep = HeroCreator.CreateRandomHero();
+            var rep = HeroCreator.CreateRandomHero(i);
             rep.state = HeroState.Applying;
             heroes.Add(rep);
         }
