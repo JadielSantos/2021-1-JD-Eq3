@@ -11,7 +11,7 @@ public class MainMenuUI : InstantiatableUI<MainMenuUI, MainMenuCanvas>
 	
 	public MainMenuUI() : base(null)
 	{
-		Canvas.gameTitle.text = Application.productName;
+		Canvas.gameTitle.text = "FIGHT CHESS";
 		HookSelectableEvent(Canvas.startButton, onStartGame);
 		HookSelectableEvent(Canvas.settingsButton, onSettingsOpen);
 		HookSelectableEvent(Canvas.exitButton, onExit);
