@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.5f1 (3737af19df53) revision 3618735'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'pt' Physical Memory: 12230 MB
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'pt' Physical Memory: 12230 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ D:\Unity\2021.1.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/users/Icarus-master
+C:/Users/gianc/Documents/2021-1-JD-Eq3/Icarus-master
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62631
-Successfully changed project path to: D:/users/Icarus-master
-D:/users/Icarus-master
+57271
+Successfully changed project path to: C:/Users/gianc/Documents/2021-1-JD-Eq3/Icarus-master
+C:/Users/gianc/Documents/2021-1-JD-Eq3/Icarus-master
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 105.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.5f1 (3737af19df53)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/users/Icarus-master/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gianc/Documents/2021-1-JD-Eq3/Icarus-master/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -36,1002 +36,386 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.1.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000916 seconds.
+Registered in 0.001897 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.950 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.001858 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.787 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2790 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 198.4 MB.
-System memory in use after: 196.9 MB.
-
-Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3223.
-Total: 10.359200 ms (FindLiveObjects: 0.615900 ms CreateObjectMapping: 0.387100 ms MarkObjects: 7.911700 ms  DeleteObjects: 1.442200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4033d89c1da77a9a7b1ea2212bf6f53') in 0.027076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 131.247210 seconds.
-  path: Assets/Scenes/Arena/NavMesh.asset
-  artifactKey: Guid(14be6a25b7f4be544b9bd69d37029522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arena/NavMesh.asset using Guid(14be6a25b7f4be544b9bd69d37029522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b9d3add9375ad09f70f7f750b5ae9f') in 0.032762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.620518 seconds.
-  path: Assets/Scenes/CombatTest/NavMesh.asset
-  artifactKey: Guid(9c6f15d3789f9ca42bae8a124805074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CombatTest/NavMesh.asset using Guid(9c6f15d3789f9ca42bae8a124805074c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b51852b2569fda62062fd30376be89f') in 0.001927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.942605 seconds.
-  path: Assets/Scenes/ItemTest/NavMesh.asset
-  artifactKey: Guid(03a533838a7f4074abd312636f949d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ItemTest/NavMesh.asset using Guid(03a533838a7f4074abd312636f949d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0f1d630abd779eea11f25c1f947864') in 0.003051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.847806 seconds.
-  path: Assets/Scenes/Hub.unity
-  artifactKey: Guid(cf08e62487345c74fb49c28a51c4bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Hub.unity using Guid(cf08e62487345c74fb49c28a51c4bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6f6e80fea1d0571b94c3acfa33d6cc') in 0.006340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.979882 seconds.
-  path: Assets/Scenes/CombatTest.unity
-  artifactKey: Guid(bad52313aad35d34d96b0ef16183782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CombatTest.unity using Guid(bad52313aad35d34d96b0ef16183782b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a063e8e817f20d94aafe96439bcc0b') in 0.007609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.188836 seconds.
-  path: Assets/Scenes/Arena.unity
-  artifactKey: Guid(9a8832ea63e3606448b7af1bf90f741e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Arena.unity using Guid(9a8832ea63e3606448b7af1bf90f741e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fecf8ab022d27819885ed1df6ab099') in 0.006989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.995639 seconds.
-  path: Assets/Prefabs/ArrowProjectile.prefab
-  artifactKey: Guid(e564042e7f0b33541912403aec713831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ArrowProjectile.prefab using Guid(e564042e7f0b33541912403aec713831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9efa12a6d8303572ec36549830a7c6') in 0.260878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Prefabs/LightningProjectile.prefab
-  artifactKey: Guid(246292bd41c13484f8b99bb32472ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LightningProjectile.prefab using Guid(246292bd41c13484f8b99bb32472ab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13577b4e2bd7c94c3272351968b4cced') in 0.012445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Prefabs/MagicProjectile.prefab
-  artifactKey: Guid(b21c4f346da0c714d88acc12ba5e90d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicProjectile.prefab using Guid(b21c4f346da0c714d88acc12ba5e90d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f6ba24b0a4ac5668520d7365e0d92a') in 0.032902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefabs/MagicProjectilePurple.prefab
-  artifactKey: Guid(b970561c54af71942a433811d2183469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicProjectilePurple.prefab using Guid(b970561c54af71942a433811d2183469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281be1dc34ab17cbc9e6244378102eb7') in 0.018911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.028593 seconds.
-  path: Assets/Prefabs/Heroes
-  artifactKey: Guid(aa94edc456f5d4c4c92993864e3b6167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes using Guid(aa94edc456f5d4c4c92993864e3b6167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3792ac3875a730373f8ea4bc07a0531') in 0.006691 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.431705 seconds.
-  path: Assets/Prefabs/Enemies
-  artifactKey: Guid(9085ccaf5ee52d643bee2581d7778c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies using Guid(9085ccaf5ee52d643bee2581d7778c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea72b89ab848b9917f1395af9263b41') in 0.008659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.036670 seconds.
-  path: Assets/Scripts/Menus
-  artifactKey: Guid(fb39972d11c7ec844ab2476669b38c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menus using Guid(fb39972d11c7ec844ab2476669b38c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48feaaf227edbbe4a10bacb7846abc21') in 0.005871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.253807 seconds.
-  path: Assets/Scripts/Menus/MainMenuInitializer.cs
-  artifactKey: Guid(f80e194115cd3d84b93c1520d07cd9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Menus/MainMenuInitializer.cs using Guid(f80e194115cd3d84b93c1520d07cd9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d6806c5bcec0efef16369a246b42b5') in 0.209925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.510178 seconds.
-  path: Assets/Prefabs/Heroes/Elementalist.prefab
-  artifactKey: Guid(d3a711a85b261bb40be0328ebbcbf72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Elementalist.prefab using Guid(d3a711a85b261bb40be0328ebbcbf72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c8fbd1b027b433e70f0493699674e') in 0.016432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Prefabs/Heroes/Monk.prefab
-  artifactKey: Guid(70ea2f47d8a9d05418e8622b63b66528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Monk.prefab using Guid(70ea2f47d8a9d05418e8622b63b66528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ded82472a6426011ff58cfd54ee6863') in 0.013372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Prefabs/Heroes/Warrior.prefab
-  artifactKey: Guid(f96babfa24dd2b645a7731524accdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Warrior.prefab using Guid(f96babfa24dd2b645a7731524accdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6949f0b7acfa1cd76a6f21dda64e73') in 0.044043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Prefabs/Heroes/Paladin.prefab
-  artifactKey: Guid(671187e2799f47a4abec307ac2917725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Paladin.prefab using Guid(671187e2799f47a4abec307ac2917725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2706bc452640fb456521ccbaa25c270d') in 0.013493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Prefabs/Heroes/Hexer.prefab
-  artifactKey: Guid(90ef248d3b0ba8240996b7ba4ae4301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Hexer.prefab using Guid(90ef248d3b0ba8240996b7ba4ae4301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0c25d8441a860d0577a7016e50de2b') in 0.013169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Prefabs/Heroes/Priest.prefab
-  artifactKey: Guid(983bf50fa1433124f8bd3f439784a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Priest.prefab using Guid(983bf50fa1433124f8bd3f439784a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0af2bfeddaf4538542255453223a4d9') in 0.015937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Prefabs/Heroes/Rogue.prefab
-  artifactKey: Guid(c95e34e4d77352b41b3bf7ded7438559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Rogue.prefab using Guid(c95e34e4d77352b41b3bf7ded7438559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bc1f345269ec777792db1712b047b8') in 0.013780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Prefabs/Heroes/Ranger.prefab
-  artifactKey: Guid(4300617352000eb47b428ba4c4427582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Ranger.prefab using Guid(4300617352000eb47b428ba4c4427582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe7f4291580385685b0215d76815132') in 0.016197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Prefabs/Heroes/Protector.prefab
-  artifactKey: Guid(023833396d9ca7a4d94fdc615e609be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Protector.prefab using Guid(023833396d9ca7a4d94fdc615e609be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b76a0ffca2ae641452ccbe0be21915c') in 0.012968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Prefabs/Heroes/Inquisitor.prefab
-  artifactKey: Guid(a2f68039a889ae44fada8664035880e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Heroes/Inquisitor.prefab using Guid(a2f68039a889ae44fada8664035880e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaf6f1ac8f785bb022e83927bf5e8f4') in 0.015561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.763676 seconds.
-  path: Assets/Prefabs/Enemies/TestEnemy.prefab
-  artifactKey: Guid(93ed1bb0b9e0ef94ea1c8671e7e72193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/TestEnemy.prefab using Guid(93ed1bb0b9e0ef94ea1c8671e7e72193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45610aae22d0889c3365271604242834') in 0.031190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Prefabs/Enemies/TestEnemyRanged.prefab
-  artifactKey: Guid(54c83f068b4fa6d43a4722c83a267de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/TestEnemyRanged.prefab using Guid(54c83f068b4fa6d43a4722c83a267de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff55546b8d936c4a6939cc1d7be298e') in 0.012190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.966278 seconds.
-  path: Assets/Graphics/Button.prefab
-  artifactKey: Guid(a61adc8bbcc5b8243b64e56eb54583bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Button.prefab using Guid(a61adc8bbcc5b8243b64e56eb54583bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6411e2f31e99dfa0c6625535452633b') in 0.060794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Graphics/Scroll View.prefab
-  artifactKey: Guid(2aae4d5a89454b64899edd9290bdd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Scroll View.prefab using Guid(2aae4d5a89454b64899edd9290bdd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c747aa5df33f555ddd134b797dc8ae') in 0.018453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Graphics/Toggle.prefab
-  artifactKey: Guid(54f084f660711044baaa5204ea5666cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Toggle.prefab using Guid(54f084f660711044baaa5204ea5666cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842db91e10ea21213b49da2e438a30e') in 0.028623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Graphics/Dropdown.prefab
-  artifactKey: Guid(1c48e1d1d7089224694230fbfe8a06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Dropdown.prefab using Guid(1c48e1d1d7089224694230fbfe8a06a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f070fb56d759c90e30960753fc112535') in 0.033290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Graphics/Text.prefab
-  artifactKey: Guid(ee9c71a61a3be8f41aef2bc71569b59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Text.prefab using Guid(ee9c71a61a3be8f41aef2bc71569b59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1543f187edaf1516ffb0db567f94222') in 0.024071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Graphics/TemplateList.asset
-  artifactKey: Guid(82b479e17c994d34b83b3979e3fa869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/TemplateList.asset using Guid(82b479e17c994d34b83b3979e3fa869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa0d55ea4afd2224f4b72a4e571fbda') in 0.045963 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Graphics/Slider.prefab
-  artifactKey: Guid(019d9a05b3f9a394aab0958402c6f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/Slider.prefab using Guid(019d9a05b3f9a394aab0958402c6f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf844b6557c87cc767805ba7c9a2b0') in 0.008223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Graphics/InputField.prefab
-  artifactKey: Guid(4a80c9d66c62ca24291487a2600efb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Graphics/InputField.prefab using Guid(4a80c9d66c62ca24291487a2600efb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ec165d30d9a62d03b1bf85bdc34bdb') in 0.027215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.691006 seconds.
-  path: Assets/Resources/UI/Instantiatable/EmbarkCanvas.prefab
-  artifactKey: Guid(b2bd30b13f7bd0c45b3d6f8b53f594dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/EmbarkCanvas.prefab using Guid(b2bd30b13f7bd0c45b3d6f8b53f594dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8124b873826f43391a35c3420a7d4108') in 0.028446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Resources/UI/Instantiatable/HealthAndResourceCanvas.prefab
-  artifactKey: Guid(7b5a86c89d7ca8d45b1e88f9f5fef44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HealthAndResourceCanvas.prefab using Guid(7b5a86c89d7ca8d45b1e88f9f5fef44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3852ef77ce54f177cff5be61b3eeccf') in 0.008997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Resources/UI/Instantiatable/HubCanvas.prefab
-  artifactKey: Guid(316140c4311758141ac9c9d83f383069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HubCanvas.prefab using Guid(316140c4311758141ac9c9d83f383069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd0f2376fa554a8dde4764575ea5b99') in 0.032298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab
-  artifactKey: Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab using Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8f8cc4a3e459a31e3dcbfb4fb0eccb') in 0.031950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Resources/UI/Instantiatable/HeroCanvas.prefab
-  artifactKey: Guid(0d7af43b00019994a96f953ce9afea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HeroCanvas.prefab using Guid(0d7af43b00019994a96f953ce9afea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd774bc7422804e2bf130174a0d9e6e6d') in 0.028033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Resources/UI/Instantiatable/ItemTooltipCanvas.prefab
-  artifactKey: Guid(4885a33714e128f4ba158bdddc37cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/ItemTooltipCanvas.prefab using Guid(4885a33714e128f4ba158bdddc37cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2699bc96ba5af1e1557a4e02b1257b') in 0.028693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Resources/UI/Instantiatable/RecruitCanvas.prefab
-  artifactKey: Guid(61572c7e7b68c084d8736c6d25458ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/RecruitCanvas.prefab using Guid(61572c7e7b68c084d8736c6d25458ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4e7b1ae51ac6547ff3038532c2b023') in 0.025360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Resources/UI/Instantiatable/InventoryCanvas.prefab
-  artifactKey: Guid(2e76fc0597397214796c70079f0be88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/InventoryCanvas.prefab using Guid(2e76fc0597397214796c70079f0be88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725a8cb12700854bb8b047faa4c572b1') in 0.013556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Resources/UI/Instantiatable/HeroInspectCanvas.prefab
-  artifactKey: Guid(0827b4ac92963564fad052af533961f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HeroInspectCanvas.prefab using Guid(0827b4ac92963564fad052af533961f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af88bffee53566e4284894eb7abed268') in 0.026544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Resources/UI/Instantiatable/PauseCanvas.prefab
-  artifactKey: Guid(3eaf77c9ad0fb4a47a07414cc9a54e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/PauseCanvas.prefab using Guid(3eaf77c9ad0fb4a47a07414cc9a54e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389ba9ec015588c1af17d6ffb240e18d') in 0.009832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Resources/UI/Instantiatable/MissionCompleteCanvas.prefab
-  artifactKey: Guid(8abe1166e79494f43bf73b5e1e17525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MissionCompleteCanvas.prefab using Guid(8abe1166e79494f43bf73b5e1e17525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c5baba225e7f7922e839442e420fda') in 0.050287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Resources/UI/Instantiatable/PreCombatCanvas.prefab
-  artifactKey: Guid(a189b767a21eda84db71f3bde92d76f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/PreCombatCanvas.prefab using Guid(a189b767a21eda84db71f3bde92d76f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9d4f5e444865fea2026f1c06d50187') in 0.025540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.447953 seconds.
-  path: Assets/Resources/UI/Instantiatable/TooltipCanvas.prefab
-  artifactKey: Guid(eca0b93008c177847a54a4963f4c1c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/TooltipCanvas.prefab using Guid(eca0b93008c177847a54a4963f4c1c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea542cc1c58f8df4416af036546e62fc') in 0.009054 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.0 MB.
-System memory in use after: 167.5 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3239.
-Total: 6.249700 ms (FindLiveObjects: 0.668400 ms CreateObjectMapping: 0.292300 ms MarkObjects: 4.507400 ms  DeleteObjects: 0.779400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.639534 seconds.
-  path: Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab
-  artifactKey: Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab using Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec72803941b7cc5c2be0cfb8c58e84a9') in 0.092537 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.551049 seconds.
-  path: Assets/Resources/UI/Instantiatable/EmbarkCanvas.prefab
-  artifactKey: Guid(b2bd30b13f7bd0c45b3d6f8b53f594dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/EmbarkCanvas.prefab using Guid(b2bd30b13f7bd0c45b3d6f8b53f594dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6c90cf5b342cb9815032fc272eb589') in 0.024687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.552994 seconds.
-  path: Assets/Resources/UI/Instantiatable/HealthAndResourceCanvas.prefab
-  artifactKey: Guid(7b5a86c89d7ca8d45b1e88f9f5fef44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HealthAndResourceCanvas.prefab using Guid(7b5a86c89d7ca8d45b1e88f9f5fef44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33a542f9eef3f708832a45e230e060f') in 0.004593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.180484 seconds.
-  path: Assets/Resources/UI/Instantiatable/HeroCanvas.prefab
-  artifactKey: Guid(0d7af43b00019994a96f953ce9afea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HeroCanvas.prefab using Guid(0d7af43b00019994a96f953ce9afea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d264311a2f2d5e6f906a4a544139ab4') in 0.048450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.103481 seconds.
-  path: Assets/Resources/UI/Instantiatable/HeroInspectCanvas.prefab
-  artifactKey: Guid(0827b4ac92963564fad052af533961f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HeroInspectCanvas.prefab using Guid(0827b4ac92963564fad052af533961f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1082e829e00cc98965cc4ce9583950d9') in 0.024109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.582394 seconds.
-  path: Assets/Resources/UI/Instantiatable/HubCanvas.prefab
-  artifactKey: Guid(316140c4311758141ac9c9d83f383069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/HubCanvas.prefab using Guid(316140c4311758141ac9c9d83f383069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34165c096b8fa2341cfcbdc0b4bd833b') in 0.021597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.502625 seconds.
-  path: Assets/Resources/UI/Instantiatable/InventoryCanvas.prefab
-  artifactKey: Guid(2e76fc0597397214796c70079f0be88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/InventoryCanvas.prefab using Guid(2e76fc0597397214796c70079f0be88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7607d12342b6b1a9f72f03d89ad36c') in 0.009414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.318299 seconds.
-  path: Assets/Resources/UI/Instantiatable/ItemTooltipCanvas.prefab
-  artifactKey: Guid(4885a33714e128f4ba158bdddc37cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/ItemTooltipCanvas.prefab using Guid(4885a33714e128f4ba158bdddc37cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508f0e66113ab5d3e6b93f8c7d58f580') in 0.021793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.710419 seconds.
-  path: Assets/Resources/UI/Instantiatable/MissionCompleteCanvas.prefab
-  artifactKey: Guid(8abe1166e79494f43bf73b5e1e17525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MissionCompleteCanvas.prefab using Guid(8abe1166e79494f43bf73b5e1e17525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5694c14c0b30679065aa4260c401088') in 0.024924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.903787 seconds.
-  path: Assets/Scripts/UI/MainMenuCanvas.cs
-  artifactKey: Guid(0677e50cde540164c8ec4985b93f6ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/MainMenuCanvas.cs using Guid(0677e50cde540164c8ec4985b93f6ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a835eb8a69b97a8957c01f712ccb506') in 0.002342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.720276 seconds.
-  path: Assets/Scripts/UI/MainMenuUI.cs
-  artifactKey: Guid(8bbfbb75aefba5342bd23dab4f9a41f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/MainMenuUI.cs using Guid(8bbfbb75aefba5342bd23dab4f9a41f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74eb72d76068a1933f9104ce08ae92d') in 0.006932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.927004 seconds.
-  path: Assets/Scripts/UI/MissionCompleteCanvas.cs
-  artifactKey: Guid(e18a530a6a627b4429248f5099bca9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/MissionCompleteCanvas.cs using Guid(e18a530a6a627b4429248f5099bca9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d6447f5c0e1277b5f510443742d1b4') in 0.002294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.455111 seconds.
-  path: Assets/Scripts/UI/MissionCompleteUI.cs
-  artifactKey: Guid(1f0446b7815482c42b1cbc870bddc433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/MissionCompleteUI.cs using Guid(1f0446b7815482c42b1cbc870bddc433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3fbb16528c612d50a659533f8b36d3') in 0.006918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.694463 seconds.
-  path: Assets/Scripts/UI/PauseCanvas.cs
-  artifactKey: Guid(8d02f6f857d06e943a1f9e5f9df9149d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/PauseCanvas.cs using Guid(8d02f6f857d06e943a1f9e5f9df9149d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec613021307116e5f932cc0faf6165') in 0.001845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.291336 seconds.
-  path: Assets/Scripts/UI/PauseUI.cs
-  artifactKey: Guid(cc482c3a9d149d742a773a3a94e7695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/PauseUI.cs using Guid(cc482c3a9d149d742a773a3a94e7695c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97a16921652eb88f677e0fbad73a011') in 0.007101 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.239113 seconds.
-  path: Assets/Scripts/UI/PreCombatCanvas.cs
-  artifactKey: Guid(43b9a3fd5813a9142a52585d3a4cc186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/PreCombatCanvas.cs using Guid(43b9a3fd5813a9142a52585d3a4cc186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc3d477b3a7e259bbe5568e3db4d8e3') in 0.002045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.183367 seconds.
-  path: Assets/Scripts/UI/PreCombatUI.cs
-  artifactKey: Guid(345fedd4b3a253544bdc4b5d8769d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/PreCombatUI.cs using Guid(345fedd4b3a253544bdc4b5d8769d4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b655688ac701ec59a10bc211f84d088d') in 0.007809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.121796 seconds.
-  path: Assets/Scripts/UI/RecruitCanvas.cs
-  artifactKey: Guid(a699e644b836f26479de62b4cce39852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/RecruitCanvas.cs using Guid(a699e644b836f26479de62b4cce39852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c5681a61e515460b46b03a0cbc0f03') in 0.002114 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002076 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.1 MB.
-System memory in use after: 167.6 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3242.
-Total: 6.532400 ms (FindLiveObjects: 0.424400 ms CreateObjectMapping: 0.220800 ms MarkObjects: 5.169200 ms  DeleteObjects: 0.717000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.170958 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_N(0.600,0.600)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(f04aeb371a4f61142b5fa0520039a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_N(0.600,0.600)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(f04aeb371a4f61142b5fa0520039a4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b9668bcd681e5ac4322658ee02e0f2') in 0.071855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_N(1.000,1.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(bd60b294a601f0547b70b23451629eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_N(1.000,1.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(bd60b294a601f0547b70b23451629eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533ea24fd79229563341c0fb30746b36') in 0.014794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_N35958dd7185cb88.terrainlayer
-  artifactKey: Guid(5998bc5114ec0ea4c95cf8cbcc014c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_N35958dd7185cb88.terrainlayer using Guid(5998bc5114ec0ea4c95cf8cbcc014c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059ffba2e735b98007a8b61d4efc825') in 0.015551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normalb05780438ad4031.terrainlayer
-  artifactKey: Guid(575015515cd573c49acf7def0bebf8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normalb05780438ad4031.terrainlayer using Guid(575015515cd573c49acf7def0bebf8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d24695c7cedfad3c723de6839d30804') in 0.017135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normalcc0f254a2c535401.terrainlayer
-  artifactKey: Guid(362de7922c7f22c4890eafd943fbc12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normalcc0f254a2c535401.terrainlayer using Guid(362de7922c7f22c4890eafd943fbc12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461178d6d77dda7a3d1923ed14846713') in 0.016099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_rock_drock_n(10.000,10.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(11b8197cc22e0a249aa039620438eb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_rock_drock_n(10.000,10.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(11b8197cc22e0a249aa039620438eb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05191d7784c3aa432e467a55eeef224') in 0.014187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_rock_drock_n3d1cca0d6d0e9938.terrainlayer
-  artifactKey: Guid(34475640e724a3443bf1299842f60280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_rock_drock_n3d1cca0d6d0e9938.terrainlayer using Guid(34475640e724a3443bf1299842f60280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af50af4284a0bd75422e098dbc9984e') in 0.015269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_Ncc0f254a2c535401.terrainlayer
-  artifactKey: Guid(8491157beca8a304799f2be0b9a65219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Grass_AGrass_Ncc0f254a2c535401.terrainlayer using Guid(8491157beca8a304799f2be0b9a65219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffba0ce4ee25f31f20a0a4ff285ded90') in 0.014603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normal(0.200,0.200)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(af12f09a74bdf5541a577b3e97c8275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normal(0.200,0.200)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(af12f09a74bdf5541a577b3e97c8275b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f328641a24b1ca9f56b713fec49f3019') in 0.014999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_rock_drock_n(0.400,0.400)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(20d68f9ad8205f340b375f6115a791e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_rock_drock_n(0.400,0.400)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(20d68f9ad8205f340b375f6115a791e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eed8c78f89f551f42827029d83601a9') in 0.014887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normal(1.000,1.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(47b707d155093a24e949969a0d2fe53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Sand_basecolorSand_normal(1.000,1.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(47b707d155093a24e949969a0d2fe53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982c4e3f5bad79c0fa7b07e9715a7d6c') in 0.013855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_rock_drock_nc907d37aeaae1eef.terrainlayer
-  artifactKey: Guid(120c461af8a17e84d8ee4a7cd72f6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_rock_drock_nc907d37aeaae1eef.terrainlayer using Guid(120c461af8a17e84d8ee4a7cd72f6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ed6477ccfd2683224f47cf2ef73f51') in 0.013809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.404963 seconds.
-  path: Assets/Resources/Audio/Master.mixer
-  artifactKey: Guid(0cce2dbf0545d924785238705161a8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/Master.mixer using Guid(0cce2dbf0545d924785238705161a8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49c816f1ba8532455e76fa0cd5086d9') in 0.009624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Resources/Audio/MissingClip.wav
-  artifactKey: Guid(4ce9f76d3a8ffc6429902a041ca1b6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Audio/MissingClip.wav using Guid(4ce9f76d3a8ffc6429902a041ca1b6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86f503aaf8e283dd857f6423d5ecffa') in 0.049286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.831107 seconds.
-  path: Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab
-  artifactKey: Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab using Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9e97bb32e6b6bfaaa981672f5b3585') in 0.076930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.992616 seconds.
-  path: Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab
-  artifactKey: Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab using Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b54529c7ec68ab6a364596238281b2') in 0.026756 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001914 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.7 MB.
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3251.
-Total: 7.087700 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.282900 ms MarkObjects: 5.597300 ms  DeleteObjects: 0.800600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.151477 seconds.
-  path: Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab
-  artifactKey: Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/MainMenuCanvas.prefab using Guid(c1b105717723eff4d8870c3430fed30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c970feecd432512f8081968db2f856be') in 0.104433 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001876 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.7 MB.
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3254.
-Total: 5.860900 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.130200 ms MarkObjects: 4.666600 ms  DeleteObjects: 0.778300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.409502 seconds.
-  path: Assets/Resources/Singleton/AssemblyOrder.asset
-  artifactKey: Guid(3b7aa65b4df5c4c4da48e3b72ca7c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Singleton/AssemblyOrder.asset using Guid(3b7aa65b4df5c4c4da48e3b72ca7c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a952ea8f3e6b163075c158c3dd7f2378') in 0.047458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Resources/Singleton/EventSystemSingleton.prefab
-  artifactKey: Guid(94b121be39f051d4185b5da7cc67f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Singleton/EventSystemSingleton.prefab using Guid(94b121be39f051d4185b5da7cc67f6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0694e4a7c891f10d9078e828f5c36eb') in 0.022362 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Resources/Singleton/Localizer.prefab
-  artifactKey: Guid(93fadf0f763b2104ba7f19824f317eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Singleton/Localizer.prefab using Guid(93fadf0f763b2104ba7f19824f317eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919590eb87e69a50343a849c704f7d91') in 0.008588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.813706 seconds.
-  path: Assets/Resources/UI/Instantiatable/PreCombatCanvas.prefab
-  artifactKey: Guid(a189b767a21eda84db71f3bde92d76f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/PreCombatCanvas.prefab using Guid(a189b767a21eda84db71f3bde92d76f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ade1879ceb91309ba3285d0377bcc3') in 0.078942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.217256 seconds.
-  path: Assets/Resources/UI/Instantiatable/RecruitCanvas.prefab
-  artifactKey: Guid(61572c7e7b68c084d8736c6d25458ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/RecruitCanvas.prefab using Guid(61572c7e7b68c084d8736c6d25458ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7fa0865107f7d4c330ed8603a7e285') in 0.024455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.380682 seconds.
-  path: Assets/Resources/UI/Instantiatable/TooltipCanvas.prefab
-  artifactKey: Guid(eca0b93008c177847a54a4963f4c1c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/UI/Instantiatable/TooltipCanvas.prefab using Guid(eca0b93008c177847a54a4963f4c1c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21aaf7319ab6e5ae5089861bc4cf543d') in 0.006655 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.125 seconds
 Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.003595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.2 MB.
-System memory in use after: 167.7 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.115 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.1 MB.
+System memory in use after: 199.5 MB.
 
-Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3257.
-Total: 5.851400 ms (FindLiveObjects: 0.320700 ms CreateObjectMapping: 0.142000 ms MarkObjects: 4.586200 ms  DeleteObjects: 0.801500 ms)
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3225.
+Total: 7.862200 ms (FindLiveObjects: 0.481000 ms CreateObjectMapping: 0.287500 ms MarkObjects: 6.336700 ms  DeleteObjects: 0.755600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.256603 seconds.
-  path: Assets/Resources/Item Data/ItemModData.asset
-  artifactKey: Guid(a75f2b7238bc98549a1f22cd03f6f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Item Data/ItemModData.asset using Guid(a75f2b7238bc98549a1f22cd03f6f621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd0fc99394ac23b55644bcfa6534194') in 0.035211 seconds 
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/ToonSoldiers_material.mat
+  artifactKey: Guid(6ea5e410f03a4bf408df1fdaf4d87cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/ToonSoldiers_material.mat using Guid(6ea5e410f03a4bf408df1fdaf4d87cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b245c184e4d856bc46f3a4da3ce98b85') in 0.206370 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.124704 seconds.
-  path: Assets/Resources/Entity Data/EnemyMeleeData.asset
-  artifactKey: Guid(7d050f9220e6c224aa13afbe12b1481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/EnemyMeleeData.asset using Guid(7d050f9220e6c224aa13afbe12b1481f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66adfa2b51849877984eb8a2d22eb1f2') in 0.006887 seconds 
+  Time since last request: 0.000260 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/ToonSoldiers_weapons.mat
+  artifactKey: Guid(c41ddf3f6d84a054d815ae5c9e99ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/ToonSoldiers_weapons.mat using Guid(c41ddf3f6d84a054d815ae5c9e99ad27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f331d95af83511a4b74a3e4eafe2709b') in 0.015102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Resources/Entity Data/HeroMeleeData.asset
-  artifactKey: Guid(0a09beeba84932f479b8fad41e33c61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/HeroMeleeData.asset using Guid(0a09beeba84932f479b8fad41e33c61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040c67ad30ca162962fed6991d8e72b0') in 0.006799 seconds 
+  Time since last request: 0.000226 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/TS_weapons_texture.tga
+  artifactKey: Guid(d7fded7039786194cbc041ffce5d6189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/TS_weapons_texture.tga using Guid(d7fded7039786194cbc041ffce5d6189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762ef50213f21bdfe0c247e9c1aa423d') in 0.045322 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Resources/Entity Data/HeroRangedData.asset
-  artifactKey: Guid(bee191b584d3cf441a8bb7502faea9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/HeroRangedData.asset using Guid(bee191b584d3cf441a8bb7502faea9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a713f72d40a814a700b06b39d3069486') in 0.007395 seconds 
+  Time since last request: 0.000248 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/ToonSoldiers_equipment.mat
+  artifactKey: Guid(84129433048be0546a7ee423cb15e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/ToonSoldiers_equipment.mat using Guid(84129433048be0546a7ee423cb15e7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0995147f7df7abf813d5b3f6e2fbd857') in 0.013035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials
+  artifactKey: Guid(4d31b27c97b087a4b881c8a5c8c4c7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials using Guid(4d31b27c97b087a4b881c8a5c8c4c7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369db697495d56e5b119a0beb5f7521d') in 0.007081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_blue.tga
+  artifactKey: Guid(076a9b2e83880b147a9f00b3592c1fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_blue.tga using Guid(076a9b2e83880b147a9f00b3592c1fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f00ab7b4f10605754e933371db073b0') in 0.012264 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000246 seconds.
-  path: Assets/Resources/Entity Data/HeroHealingData.asset
-  artifactKey: Guid(a14c9dcd759dfb341ac134a67ca424fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/HeroHealingData.asset using Guid(a14c9dcd759dfb341ac134a67ca424fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef4026662cba571ff6a8ee0fbca5a06') in 0.030874 seconds 
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/TS_equipment_texture.tga
+  artifactKey: Guid(3642de11d3b62d343973cf83114e1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/TS_equipment_texture.tga using Guid(3642de11d3b62d343973cf83114e1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d5a52301b89fc77a22e57c33d6168a') in 0.012715 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Resources/Entity Data/HeroSupportData.asset
-  artifactKey: Guid(5476cc7258fd4e741a40f0c2f1276a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/HeroSupportData.asset using Guid(5476cc7258fd4e741a40f0c2f1276a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba4b12d52c71e710ed48fbb47b03c90') in 0.009430 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007447 seconds.
-  path: Assets/Resources/Entity Data/EnemyRangedData.asset
-  artifactKey: Guid(100348a0157e20e489fe9acebbc1dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/EnemyRangedData.asset using Guid(100348a0157e20e489fe9acebbc1dae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa0dd14d3d4b5490953df9d924211a3') in 0.006734 seconds 
+  Time since last request: 38.689220 seconds.
+  path: Assets/Graphics/Materials/Enemy 1.mat
+  artifactKey: Guid(311f98c15ef6305428075578383ecee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Enemy 1.mat using Guid(311f98c15ef6305428075578383ecee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4b93cd63d031a9d03ef023e3533a15') in 0.012939 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000229 seconds.
-  path: Assets/Resources/Entity Data/HeroTankData.asset
-  artifactKey: Guid(22fb5b407ff1937449ee8602989ab432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Data/HeroTankData.asset using Guid(22fb5b407ff1937449ee8602989ab432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5236f3333198d0e9d8cecfff2bcf04') in 0.006616 seconds 
+  path: Assets/Graphics/Materials/Floor.mat
+  artifactKey: Guid(1ecf401055fb2d24d80d6e23226fe5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Floor.mat using Guid(1ecf401055fb2d24d80d6e23226fe5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4634dd5b640b6da9b9e8672993fb3900') in 0.011456 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.440030 seconds.
-  path: Assets/Resources/Entity Prefabs/EntityPrefabs.asset
-  artifactKey: Guid(598a0c6218b59be44a5f80362f99cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Entity Prefabs/EntityPrefabs.asset using Guid(598a0c6218b59be44a5f80362f99cc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095ffa4957d6ec3bb2dd161d8036be87') in 0.021216 seconds 
+  Time since last request: 0.000272 seconds.
+  path: Assets/Graphics/Materials/Hero.mat
+  artifactKey: Guid(7a0621afee3ebbe4a98168675f74d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Hero.mat using Guid(7a0621afee3ebbe4a98168675f74d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ebb9103e64cb50611d074a496d8b51') in 0.011980 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.142852 seconds.
-  path: Assets/Scripts/Camera/CameraMovement.cs
-  artifactKey: Guid(35371f2c3fe89ab4fbb2460d964a6585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Camera/CameraMovement.cs using Guid(35371f2c3fe89ab4fbb2460d964a6585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b7486160e1bb68e67a7088d8fded8b') in 0.005698 seconds 
+  Time since last request: 0.000236 seconds.
+  path: Assets/Graphics/Materials/Enemy.mat
+  artifactKey: Guid(6522d79e8848fe24ca7059a9c6a18a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Materials/Enemy.mat using Guid(6522d79e8848fe24ca7059a9c6a18a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4478f951e33798ab68d81afc6f5d7ff8') in 0.011008 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.465038 seconds.
-  path: Assets/Scripts/UI/ItemTooltipUI.cs
-  artifactKey: Guid(11829a0d8ec68174b80d7bab729f874c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/ItemTooltipUI.cs using Guid(11829a0d8ec68174b80d7bab729f874c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc928ec8c54c8a6cb258481d897ea1e7') in 0.007037 seconds 
+  Time since last request: 7.172254 seconds.
+  path: Assets/Prefabs/Heroes/Ranger.prefab
+  artifactKey: Guid(4300617352000eb47b428ba4c4427582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heroes/Ranger.prefab using Guid(4300617352000eb47b428ba4c4427582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091ca9c947e2f16268f1b7b408e679e9') in 0.029820 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002437 seconds.
+Registered in 0.002871 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.276 seconds
+- Completed reload, in  0.860 seconds
 Platform modules already initialized, skipping
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.3 MB.
-System memory in use after: 167.7 MB.
+Unloading 2453 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.9 MB.
+System memory in use after: 172.4 MB.
 
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3260.
-Total: 8.001100 ms (FindLiveObjects: 0.338400 ms CreateObjectMapping: 0.288200 ms MarkObjects: 6.585700 ms  DeleteObjects: 0.787300 ms)
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3317.
+Total: 6.808900 ms (FindLiveObjects: 0.441800 ms CreateObjectMapping: 0.255400 ms MarkObjects: 5.419600 ms  DeleteObjects: 0.690900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 459.096260 seconds.
+  path: Assets/Graphics/Effects/FXProfile.asset
+  artifactKey: Guid(ce62060dffcfc3a4ca502ea180a076b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Effects/FXProfile.asset using Guid(ce62060dffcfc3a4ca502ea180a076b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9100e2dab117909a16f09811d9ffece') in 0.044515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Graphics/Effects/TestTexture.renderTexture
+  artifactKey: Guid(1cecdbea31b46054ca9f2834200dce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Effects/TestTexture.renderTexture using Guid(1cecdbea31b46054ca9f2834200dce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a82c984c579bb59d623fabd28207d99') in 0.114969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.454875 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(4a75c22f6c19a0246a075b90cce22d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(4a75c22f6c19a0246a075b90cce22d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79dfee5b6c572ab7df76282be0500ccc') in 0.007707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983056 seconds.
+  path: Assets/Scripts/Player/BasePlayer.cs
+  artifactKey: Guid(48b05eb8a148f2a4d99b4317e676a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/BasePlayer.cs using Guid(48b05eb8a148f2a4d99b4317e676a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66d5ab2c75760bad311c0d2ff9e2468') in 0.186544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.991424 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_brown.tga
+  artifactKey: Guid(89f6922b540af944bb07ecf46e4b304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_brown.tga using Guid(89f6922b540af944bb07ecf46e4b304c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cefb42bfee3a7532e5f46b1844c5559') in 0.023936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_white.tga
+  artifactKey: Guid(8698527f68e84c4419ea07a175e5efbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_white.tga using Guid(8698527f68e84c4419ea07a175e5efbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b431f659d538319f424510cc40724ff') in 0.025234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_red.tga
+  artifactKey: Guid(97778886190114f47b61ecc272b562b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_red.tga using Guid(97778886190114f47b61ecc272b562b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1d5f3674045cfe86fbe234cd28b996') in 0.021028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_grey.tga
+  artifactKey: Guid(3066a294a0273ce46a4c751a713bc797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_grey.tga using Guid(3066a294a0273ce46a4c751a713bc797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76238fef8d11235689b7e83e34dc1040') in 0.021357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_green.tga
+  artifactKey: Guid(dbe330c4e812a42459af52483aec98ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_green.tga using Guid(dbe330c4e812a42459af52483aec98ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6527c9f177ca51971fad69a585ec04') in 0.021312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_olive.tga
+  artifactKey: Guid(b05f553e72ddf3944a2362e15c17150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_olive.tga using Guid(b05f553e72ddf3944a2362e15c17150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5370a71b0b9eb74820a77d7c806cb07c') in 0.022610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_yellow.tga
+  artifactKey: Guid(4a53ef0b2bd0f3b47b0e65565d64f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_yellow.tga using Guid(4a53ef0b2bd0f3b47b0e65565d64f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65297959910a7613a9900a862842b79') in 0.020224 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002644 seconds.
+Registered in 0.002925 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
+- Completed reload, in  1.159 seconds
 Platform modules already initialized, skipping
 Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.4 MB.
-System memory in use after: 167.8 MB.
+Unloading 2458 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.0 MB.
+System memory in use after: 180.5 MB.
 
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3263.
-Total: 8.783700 ms (FindLiveObjects: 0.340300 ms CreateObjectMapping: 0.109500 ms MarkObjects: 7.554400 ms  DeleteObjects: 0.778100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002578 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 169.4 MB.
-System memory in use after: 167.9 MB.
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3266.
-Total: 9.353800 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.280900 ms MarkObjects: 7.727700 ms  DeleteObjects: 0.973900 ms)
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 8.292700 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.107500 ms MarkObjects: 7.159100 ms  DeleteObjects: 0.731900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 292.128892 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/ToonSoldiers_customizable.FBX
-  artifactKey: Guid(317bd1d2b778cf0448b311d615661b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/ToonSoldiers_customizable.FBX using Guid(317bd1d2b778cf0448b311d615661b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28aa4ef0ea155e4f9c81ecfda0fe8ba9') in 0.464743 seconds 
+  Time since last request: 66.571911 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_black.tga
+  artifactKey: Guid(91b8766b46649b4438c6bea83b807e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/Materials/textures/ToonSoldiers_texture_black.tga using Guid(91b8766b46649b4438c6bea83b807e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c2c001350a9a1f0939a5bc7146e38c') in 0.066571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.572666 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_engineer.prefab
-  artifactKey: Guid(0da9de283a7ba434d96430736add1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_engineer.prefab using Guid(0da9de283a7ba434d96430736add1c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560c28b4142cfb8d97c064129b9838dd') in 0.020978 seconds 
+  Time since last request: 59.692091 seconds.
+  path: Assets/Prefabs/Heroes/Protector.prefab
+  artifactKey: Guid(023833396d9ca7a4d94fdc615e609be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heroes/Protector.prefab using Guid(023833396d9ca7a4d94fdc615e609be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc5072cef151b7c74406ab7af0c67e9') in 0.050773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_medic.prefab
-  artifactKey: Guid(482fb19898afc38419a5799f9a76bf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_medic.prefab using Guid(482fb19898afc38419a5799f9a76bf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76430b7178a0b64c10922b8426dfa7f') in 0.028155 seconds 
+  Time since last request: 25.486324 seconds.
+  path: Assets/Prefabs/Heroes/Priest.prefab
+  artifactKey: Guid(983bf50fa1433124f8bd3f439784a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heroes/Priest.prefab using Guid(983bf50fa1433124f8bd3f439784a13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af23354d0b9eaedb186c0785390824a9') in 0.012892 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_scout.prefab
-  artifactKey: Guid(8df00e537d06c7a49b1696af4f1835e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_scout.prefab using Guid(8df00e537d06c7a49b1696af4f1835e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f82c2611d9c75fadeb4f7fb32b83c6c') in 0.021368 seconds 
+  Time since last request: 16.846171 seconds.
+  path: Assets/Prefabs/Heroes/Paladin.prefab
+  artifactKey: Guid(671187e2799f47a4abec307ac2917725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heroes/Paladin.prefab using Guid(671187e2799f47a4abec307ac2917725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfd0e42d10c5013655192c3231747bb') in 0.013642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_sniper.prefab
-  artifactKey: Guid(4b32d243d6c977349b6e937575d52bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_sniper.prefab using Guid(4b32d243d6c977349b6e937575d52bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9b5bebe17912aeec86cfc26c7dd5df') in 0.019578 seconds 
+  Time since last request: 17.135586 seconds.
+  path: Assets/Prefabs/Heroes/Warrior.prefab
+  artifactKey: Guid(f96babfa24dd2b645a7731524accdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heroes/Warrior.prefab using Guid(f96babfa24dd2b645a7731524accdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8717f052338d69a78142f8257390cd6') in 0.012633 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_officer.prefab
-  artifactKey: Guid(d7b7766a3fcf5264dbe662007a3d95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_officer.prefab using Guid(d7b7766a3fcf5264dbe662007a3d95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71449481fac14bc2cc3028a6d2bfb8e') in 0.023916 seconds 
+  Time since last request: 30.425346 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_assault_rifle_A.FBX
+  artifactKey: Guid(abc7b86a7ff581f46b9b6de78ebb1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_assault_rifle_A.FBX using Guid(abc7b86a7ff581f46b9b6de78ebb1ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d98b779d6d19be442bff50b7703929f') in 0.106801 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_infantry.prefab
-  artifactKey: Guid(0b66b9bdf70fc964fa924cea4e45c3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_infantry.prefab using Guid(0b66b9bdf70fc964fa924cea4e45c3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7081f20f529e47db55d06809789ca7f') in 0.020065 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_medigun.FBX
+  artifactKey: Guid(84108197dd9af4844b7b1e350e420ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_medigun.FBX using Guid(84108197dd9af4844b7b1e350e420ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b44109b14c9cb2f90117614ddd037c4') in 0.087095 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_gunner.prefab
-  artifactKey: Guid(5197bf90a75a5cc45ae1fe0742d601f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_gunner.prefab using Guid(5197bf90a75a5cc45ae1fe0742d601f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a353c4fc831377e4cbdecba68fd14515') in 0.022399 seconds 
+  Time since last request: 0.000270 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_grenade_launcher.FBX
+  artifactKey: Guid(57f433ea5dbe48a48aa97c0667835f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_grenade_launcher.FBX using Guid(57f433ea5dbe48a48aa97c0667835f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40abf386d0c78c6dbb434fe28b5d1df3') in 0.025372 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_flammer.prefab
-  artifactKey: Guid(409998455554f684b88485049a3eae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/prefabs/ToonSoldiers_flammer.prefab using Guid(409998455554f684b88485049a3eae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cf519aebe0a2d5e79369a7dcf2e4c4') in 0.022063 seconds 
+  Time since last request: 0.000289 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_minigun.FBX
+  artifactKey: Guid(cd5d852b293eb1549ad5dab5cb7d726e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_minigun.FBX using Guid(cd5d852b293eb1549ad5dab5cb7d726e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b689013989bba0ac3c8af2a677f3ead') in 0.022700 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.777016 seconds.
-  path: Assets/Scenes/ItemTest
-  artifactKey: Guid(acc8cb6aabc8df04ba289efa1b676f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ItemTest using Guid(acc8cb6aabc8df04ba289efa1b676f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60115e1a37853c0f04ffec4a326a18b') in 0.007801 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002617 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.5 MB.
-System memory in use after: 184.0 MB.
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3274.
-Total: 8.844800 ms (FindLiveObjects: 0.476800 ms CreateObjectMapping: 0.286800 ms MarkObjects: 6.785100 ms  DeleteObjects: 1.294700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001999 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.134 seconds
-Platform modules already initialized, skipping
-Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.5 MB.
-System memory in use after: 184.0 MB.
-
-Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3277.
-Total: 7.256800 ms (FindLiveObjects: 0.317600 ms CreateObjectMapping: 0.239500 ms MarkObjects: 5.715700 ms  DeleteObjects: 0.982600 ms)
-
+  Time since last request: 0.000215 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_heavy_machinegun.FBX
+  artifactKey: Guid(ffa9e06975e572e4fa0f7a787ff53157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_heavy_machinegun.FBX using Guid(ffa9e06975e572e4fa0f7a787ff53157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32d13f0f9fe53c0165a685af0f3ace3') in 0.024629 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 672.896359 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_draw.FBX
-  artifactKey: Guid(a2e1100fab7269a43a702bdae9c5c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_draw.FBX using Guid(a2e1100fab7269a43a702bdae9c5c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a4dd91ae9531091c81df14770eb629') in 0.093879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_reload.FBX
-  artifactKey: Guid(e77f4ee8d24674a4bb659b470d5939a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_reload.FBX using Guid(e77f4ee8d24674a4bb659b470d5939a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53171f4b9da30e1eeae8949b1402f547') in 0.009728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_idle.FBX
-  artifactKey: Guid(2e680f73a503c59439a46e36fa7f532c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_idle.FBX using Guid(2e680f73a503c59439a46e36fa7f532c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d63a8cba5e1682274d6361580ca174d') in 0.014630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_shoot_burst.FBX
-  artifactKey: Guid(362255460a9049e48a1e7ebf0d696f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_shoot_burst.FBX using Guid(362255460a9049e48a1e7ebf0d696f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d316709ad051cad9d2d7e1510d3c01a') in 0.011100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_death_B.FBX
-  artifactKey: Guid(56c88776f884dda4a948b1b65325eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_death_B.FBX using Guid(56c88776f884dda4a948b1b65325eefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d3290d23c7437c0ddb78e1d56f0e44') in 0.009571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_shoot.FBX
-  artifactKey: Guid(354a7204e11f37e40bf5fb5f281167bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_combat_shoot.FBX using Guid(354a7204e11f37e40bf5fb5f281167bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719e9c5d53e44028dd4fd87444a5167f') in 0.010875 seconds 
+  Time since last request: 0.000260 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_assault_rifle_B.FBX
+  artifactKey: Guid(367670bab5e20f14899569d00f5f3c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_assault_rifle_B.FBX using Guid(367670bab5e20f14899569d00f5f3c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb5767370fbf750f41e945728fbe03f') in 0.020463 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000209 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_death_A.FBX
-  artifactKey: Guid(137155502bade354080c0c9ccdf60d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_death_A.FBX using Guid(137155502bade354080c0c9ccdf60d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfff3d618ae9cc26930853cf98705fb2') in 0.015198 seconds 
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_crossbow.FBX
+  artifactKey: Guid(3ff234ce9f4f84b4c813f2149bcc5af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_crossbow.FBX using Guid(3ff234ce9f4f84b4c813f2149bcc5af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915b81bad7b1ff8816a7a3787aa46287') in 0.021578 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.625735 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_death_C.FBX
-  artifactKey: Guid(d7583335a6287e547afc1f3d264ce9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Handgun/handgun_death_C.FBX using Guid(d7583335a6287e547afc1f3d264ce9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ddbc9b65182f033ab7de6179936572') in 0.012686 seconds 
+  Time since last request: 0.000304 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_submachinegun.FBX
+  artifactKey: Guid(a59670924a782844eba004b28831683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_submachinegun.FBX using Guid(a59670924a782844eba004b28831683c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c12fdc79b18bebfac5ed6d46d5e504') in 0.020186 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.419906 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_draw.FBX
-  artifactKey: Guid(a8e2d9630991c6e458e0a87cf39d29c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_draw.FBX using Guid(a8e2d9630991c6e458e0a87cf39d29c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8532d83030dac409c1adab2d0ef2c0f8') in 0.013359 seconds 
+  Time since last request: 0.000221 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_revolver.FBX
+  artifactKey: Guid(5889cc033face224187fc217c9050b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_revolver.FBX using Guid(5889cc033face224187fc217c9050b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6f6d9b89e241947a4636d20588af4c') in 0.021320 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot_shotgun.FBX
-  artifactKey: Guid(d83cd7c874fb3cd4c8893275ed62a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot_shotgun.FBX using Guid(d83cd7c874fb3cd4c8893275ed62a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40adeae2957454f88e387eae1cf7847d') in 0.010874 seconds 
+  Time since last request: 0.000183 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_flamethrower.FBX
+  artifactKey: Guid(a49b5c51569d70042815c69457c7238e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_flamethrower.FBX using Guid(a49b5c51569d70042815c69457c7238e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c72b6e8206231f92e05eddaecd6845d') in 0.087445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot_burst.FBX
-  artifactKey: Guid(08874e94c96227746815534b4b44fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot_burst.FBX using Guid(08874e94c96227746815534b4b44fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0481f79c3a7451a9f674cd2ff570ed') in 0.010762 seconds 
+  Time since last request: 0.000203 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_sniper_rifle.FBX
+  artifactKey: Guid(f4a2aeae66e02574fba4d5ad81cafdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_sniper_rifle.FBX using Guid(f4a2aeae66e02574fba4d5ad81cafdf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f01fef383488c0db302cf37bcc63fe') in 0.019491 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot.FBX
-  artifactKey: Guid(4235e9150ffeb904e8529941222a20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot.FBX using Guid(4235e9150ffeb904e8529941222a20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cad5c007a227d06844b0b4218f08dd') in 0.014439 seconds 
+  Time since last request: 0.000179 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_shotgun.FBX
+  artifactKey: Guid(5538740e3725df649ab989c032865338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_shotgun.FBX using Guid(5538740e3725df649ab989c032865338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93451c25937a859d4691db2e325d240e') in 0.023989 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot_bolt.FBX
-  artifactKey: Guid(e43ab61933d857f4fb810c6d40cbc9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_shoot_bolt.FBX using Guid(e43ab61933d857f4fb810c6d40cbc9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88207c32b47d108dc4aa9a71547b35ae') in 0.010678 seconds 
+  Time since last request: 0.000249 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_welder.FBX
+  artifactKey: Guid(88c45e101050b9d42aa9db450c5f06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_welder.FBX using Guid(88c45e101050b9d42aa9db450c5f06c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba16220ba0c8e853580975cc78c58c8b') in 0.026267 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_reload.FBX
-  artifactKey: Guid(74d22c24b0b562b4994a0b3fb7918e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_reload.FBX using Guid(74d22c24b0b562b4994a0b3fb7918e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bfd45ce52fe51af9f37201c5f69812') in 0.011198 seconds 
+  Time since last request: 0.000214 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_knife.FBX
+  artifactKey: Guid(75061fe987d18a84b8bd0305c9330545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_knife.FBX using Guid(75061fe987d18a84b8bd0305c9330545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c5bd1456908ac4079907b0d3f5e35a') in 0.019814 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_idle.FBX
-  artifactKey: Guid(e7dad051bd467364291629d1c5486566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_combat_idle.FBX using Guid(e7dad051bd467364291629d1c5486566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18ca72337f74a553cf86f9dc4ec118b') in 0.013624 seconds 
+  Time since last request: 0.000212 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_light_machinegun.FBX
+  artifactKey: Guid(c428558998a748c49b91556a1288179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_light_machinegun.FBX using Guid(c428558998a748c49b91556a1288179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def2821893e95de6fce343d296361382') in 0.025279 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_death_A.FBX
-  artifactKey: Guid(e8ce44c146300d840a88117f1e211e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toon_Soldiers/ToonSoldiers_2/animation/Infantry/infantry_death_A.FBX using Guid(e8ce44c146300d840a88117f1e211e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd265acd177d07b67dc9e43c70d94dfc3') in 0.012422 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000200 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_handgun.FBX
+  artifactKey: Guid(5977258d1679e6c43bceba1941e91837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_handgun.FBX using Guid(5977258d1679e6c43bceba1941e91837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcc151a41b6b6edf97b4b2005a9a51') in 0.022045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_needle_gun.FBX
+  artifactKey: Guid(3bc96c8603d4eb54ebf729d54c38063b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_needle_gun.FBX using Guid(3bc96c8603d4eb54ebf729d54c38063b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b149739a07226f81c26b896f023e2496') in 0.023394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_rocket_launcher.FBX
+  artifactKey: Guid(58783c040727c42488d50ed002a8ad86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_rocket_launcher.FBX using Guid(58783c040727c42488d50ed002a8ad86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b77893580260730e97a0a215d51ad3') in 0.023806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_wrench.FBX
+  artifactKey: Guid(b992d776d037ac949b10ee7851df757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon_Soldiers/ToonSoldiers_2/models/weapons/weapon_wrench.FBX using Guid(b992d776d037ac949b10ee7851df757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23ab7f2035364b4cbb5f8aa56a151c7') in 0.022268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.318986 seconds.
+  path: Assets/Prefabs/Heroes/Rogue.prefab
+  artifactKey: Guid(c95e34e4d77352b41b3bf7ded7438559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heroes/Rogue.prefab using Guid(c95e34e4d77352b41b3bf7ded7438559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855eabeacb7147858159b8459cf595b5') in 0.062946 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.026 seconds
+Platform modules already initialized, skipping
+Shader 'ASESampleShaders/Terrain/TerrainSnowCoverageFirstPass': dependency 'BaseMapShader' shader 'ASESampleShaders/TerrainBase' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2451 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.1 MB.
+System memory in use after: 181.6 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3466.
+Total: 6.721000 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.104800 ms MarkObjects: 5.479800 ms  DeleteObjects: 0.843100 ms)
+
