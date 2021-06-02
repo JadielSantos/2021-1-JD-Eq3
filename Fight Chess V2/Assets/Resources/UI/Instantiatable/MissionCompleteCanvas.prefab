@@ -315,7 +315,6 @@ MonoBehaviour:
   headerText: {fileID: 7027886800902818479}
   rewardPanel: {fileID: 8432484477903879851}
   quitButton: {fileID: 6321898284732355637}
-  baseItemContainer: {fileID: 0}
 --- !u!1 &6248191011268566224
 GameObject:
   m_ObjectHideFlags: 0
