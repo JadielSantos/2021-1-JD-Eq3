@@ -274,6 +274,7 @@ GameObject:
   - component: {fileID: 5455953460819383848}
   - component: {fileID: 8884112801021492470}
   - component: {fileID: 3540820302772078548}
+  - component: {fileID: 2933490623216647075}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -288,13 +289,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6661965335756055758}
-  m_LocalRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
-  m_LocalPosition: {x: -0.232, y: 0.374, z: 0.593}
+  m_LocalRotation: {x: 0.9961947, y: -0.08715578, z: 0, w: 0}
+  m_LocalPosition: {x: -0.111, y: 0.161, z: 0.577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2923582103235840768}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 90}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 10}
 --- !u!33 &8884112801021492470
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -345,3 +346,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1818360609 &2933490623216647075
+RotationConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6661965335756055758}
+  m_Enabled: 1
+  m_Weight: 1
+  m_RotationAtRest: {x: 180, y: 0, z: 10}
+  m_RotationOffset: {x: 0, y: 0, z: 0}
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_IsContraintActive: 0
+  m_IsLocked: 0
+  m_Sources: []
