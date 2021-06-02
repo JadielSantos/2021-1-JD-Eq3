@@ -12,30 +12,30 @@ public class MissionCompleteCanvas : InstantiatableCanvas
     public TMP_Text headerText;
     public GameObject rewardPanel;
     public Button quitButton;
-    public ItemContainerElement baseItemContainer;
+    // public ItemContainerElement baseItemContainer;
 
     private void Awake()
     {
-        baseItemContainer.gameObject.SetActive(false);
+        // baseItemContainer.gameObject.SetActive(false);
         quitButton.onClick.AddListener(() => SceneManager.LoadScene("Hub"));
     }
 
     public void Defeat()
     {
-        headerText.text = "Defeat";
-        rewardPanel.gameObject.SetActive(false);
+        headerText.text = "Derrota :(";
+        rewardPanel.gameObject.SetActive(true);
     }
 
     public void Victory(MissionLoot loot)
     {
-        headerText.text = "Victory!";
+        headerText.text = "Vitória!";
 
         rewardPanel.gameObject.SetActive(true);
-        foreach(var item in loot.Get)
-        {
-            var ic = Instantiate(baseItemContainer, baseItemContainer.transform.parent);
-            ic.gameObject.SetActive(true);
-            ic.SetItem(item);
-        }
+        // foreach(var item in loot.Get)
+        // {
+        //     var ic = Instantiate(baseItemContainer, baseItemContainer.transform.parent);
+        //     ic.gameObject.SetActive(true);
+        //     ic.SetItem(item);
+        // }
     }
 }
