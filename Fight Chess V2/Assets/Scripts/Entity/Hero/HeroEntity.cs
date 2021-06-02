@@ -137,13 +137,13 @@ public abstract class HeroEntity : BaseEntity
     #region Description
 
     const string BaseDescription =
-    "{0} - Level {1} {2}\n" +
-    "{3}\n" +
-    "Base health: {4}\n\n";
+    "{0}\n" +
+    "{1}\n" +
+    "Vida base: {2}\n\n";
 
     public string GetDescription(string heroName, int level)
     {
-        return string.Format(BaseDescription + GetAdditionalDescription(), heroName, level, gameObject.name, GetClassType(), GetStartHealth().ToString());
+        return string.Format(BaseDescription + GetAdditionalDescription(), gameObject.name, GetClassType(), GetStartHealth().ToString());
     }
 
     protected abstract string GetAdditionalDescription();

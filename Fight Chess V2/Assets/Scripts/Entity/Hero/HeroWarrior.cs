@@ -14,7 +14,7 @@ public class HeroWarrior : HeroEntity
         return "Vida média, defesa média e dá dano em área em certo tempo.";
     }
 
-    protected override string GetClassType() => "Melee";
+    protected override string GetClassType() => "Corpo-a-Corpo";
 
     protected override int GetStartHealth() => HeroMeleeData.Instance.StartHealth + startHealthAdd;
 }

@@ -23,4 +23,6 @@ public class HeroSupportTank : HeroTank
         blockChance = OverrideBlockchance;
         return "Bastante vida, ataca de longe e aumenta o ganho de energia dos aliados.";
     }
+    
+    protected override string GetClassType() => "Tank/Ataque À Distância";
 }

@@ -14,7 +14,7 @@ public class HeroRogue : HeroEntity
         return "Vida baixa, defesa baixa, alto dano em pouco tempo. Ao gastar sua energia, pula no alvo e desvia de TODOS os ataques por um curto período de tempo.";
     }
 
-    protected override string GetClassType() => "Melee";
+    protected override string GetClassType() => "Corpo-a-Corpo";
 
     protected override int GetStartHealth() => HeroMeleeData.Instance.StartHealth + startHealthAdd;
 }

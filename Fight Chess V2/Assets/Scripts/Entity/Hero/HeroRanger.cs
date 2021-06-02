@@ -14,7 +14,7 @@ public class HeroRanger : HeroEntity
         return "Dano a distância, pouca vida, porém dá um dano consideravelmente alto. Têm habilidade de dar tiros em cone ao gastar energia.";
     }
 
-    protected override string GetClassType() => "Ranged";
+    protected override string GetClassType() => "Ataque À Distância";
 
     protected override int GetStartHealth() => HeroRangedData.Instance.StartHealth + startHealthAdd;
 }
