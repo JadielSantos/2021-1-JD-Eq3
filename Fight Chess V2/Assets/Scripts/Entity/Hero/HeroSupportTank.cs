@@ -8,7 +8,8 @@ public class HeroSupportTank : HeroTank
 
     protected override IActionProvider CreateActionProvider()
     {
-        return new SupportTankActionProvider(this, damageType);
+        // return new SupportTankActionProvider(this, damageType);
+        return new MagicRangedActionProvider(this, damageType, projectilePrefab);
     }
 
     protected override IEntityHealthProvider CreateHealthProvider(int startHealth)

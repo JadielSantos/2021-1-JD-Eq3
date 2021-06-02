@@ -205,7 +205,7 @@ MonoBehaviour:
   attackType: 1
   projectilePrefab: {fileID: 3116668792918235552, guid: 246292bd41c13484f8b99bb32472ab95,
     type: 3}
-  damageType: 1
+  damageType: 0
   timesDownedBeforeDeath: 3
   downTime: 2
   healthPercentageToReturn: 0.33
