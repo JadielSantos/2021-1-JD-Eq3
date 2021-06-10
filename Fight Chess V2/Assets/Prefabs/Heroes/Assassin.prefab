@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8919218209112877608}
   - component: {fileID: 1346063412676762856}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 2482488603529464184}
   - component: {fileID: 4875514951553976340}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 6001864068515230128}
   - component: {fileID: 5126043938865258916}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -442,7 +442,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 253218b3ce4d105498e9b31ee0a351ce, type: 2}
+  - {fileID: 2100000, guid: 216227887eb8f34f485754b3c21de72f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
