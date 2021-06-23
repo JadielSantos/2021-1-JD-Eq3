@@ -62,7 +62,7 @@ public class ItemStatTest : MonoBehaviour
                 power = new PowerStat(),
                 health = new HealthStat { mathType = ModMathType.Additive, iValue = 10, valueType = ValueType.Int }
             });
-            item.OutputUsedStats();
+            //item.OutputUsedStats();
 
             hero.EquipmentSlots[0].Equip(item);
 
@@ -71,6 +71,6 @@ public class ItemStatTest : MonoBehaviour
             Debug.Log(hero.HealthPercentage);
         }
 
-        if (Input.GetKeyDown(KeyCode.K)) hero.GetModifier().OutputHealthDecorators();
+        //if (Input.GetKeyDown(KeyCode.K)) hero.GetModifier().OutputHealthDecorators();
     }
 }

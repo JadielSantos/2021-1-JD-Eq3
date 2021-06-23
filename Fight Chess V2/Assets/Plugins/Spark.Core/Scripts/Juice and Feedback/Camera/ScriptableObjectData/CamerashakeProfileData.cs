@@ -48,8 +48,8 @@ public class CamerashakeProfileData : ScriptableObject
     {
         if (profiles.AddIfNotPresent(profile))
         {
-            AssetDatabase.Refresh();
-            AssetDatabase.SaveAssets();
+            //AssetDatabase.Refresh();
+           // AssetDatabase.SaveAssets();
         }
     }
 
